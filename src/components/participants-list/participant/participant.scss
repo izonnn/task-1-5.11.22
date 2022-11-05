@@ -1,0 +1,49 @@
+.participant {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 14px;
+
+  .icon-name {
+    display: flex;
+    width: 140px;
+
+    .icon {
+      margin-right: 12px;
+
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+    }
+
+    .name {
+      margin-top: 7px;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+
+  .check-in-btn {
+    border-color: #07C050;
+    background-color: #07C050;
+    color: #fff;
+
+    &.checked {
+      background-color: #fff;
+      color: #07C050;
+      border-color: #07C050;
+    }
+  }
+
+  .buttons {
+    .trash-icon {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .whatsapp-icon {
+      margin-right: 8px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.participants-list {
+  @import './participant/participant.scss';
+  padding-top: 30px;
+
+  .header {
+    display: flex;
+    padding: 30px 25px 30px 38px;
+    justify-content: space-between;
+
+    .title {
+      font-size: 17px;
+      margin-top: 4px;
+      font-weight: 400;
+    }
+
+    .participants-select {
+      width: 150px;
+    }
+  }
+}
